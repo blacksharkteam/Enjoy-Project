@@ -457,7 +457,7 @@ body {
 
 
 .containerr {
-	width: 600px;
+	width: 900px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -466,7 +466,7 @@ body {
 	position: relative;
 	top: 0;
 	left: 0;
-	width: 150px;
+	width: 200px;
 	height: 45px;
 	margin: 0;
 	display: flex;
@@ -576,6 +576,12 @@ body {
 }
 .containerr .btn:nth-child(3)::before, /* 3*/
 .containerr .btn:nth-child(3)::after {
+	background: blue;
+	box-shadow: 0 0 5px blue, 0 0 15px #1eff45, 0 0 30px blue,
+		0 0 60px blue;
+}
+.containerr .btn:nth-child(4)::before, /* 4*/
+.containerr .btn:nth-child(4)::after {
 	background: #00FFFF;
 	box-shadow: 0 0 5px #00FFFF, 0 0 15px #00FFFF, 0 0 30px #00FFFF,
 		0 0 60px #00FFFF;
@@ -731,7 +737,8 @@ body{
 <br>
 	<div class="containerr">
 		<div class="btn"><a href="Dashboard.html" ><h5>Dashboard</h5></a></div>
-		<div class="btn"><a href="Games.html" ><h5>Games</h5></a></div>
+		<div class="btn"><a href="SimpleGames.html" ><h5>Simple Games</h5></a></div>
+		<div class="btn"><a href="SpecialGames.html" ><h5>Special Games</h5></a></div>
 		<div class="btn"><a href="Relaxation.html" ><h5>Relaxation</h5></a></div>
 	</div>
 <br><br><br>
